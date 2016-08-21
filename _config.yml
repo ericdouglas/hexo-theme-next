@@ -120,8 +120,10 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/ericdouglas
+  Twitter: https://twitter.com/ericdouglas_
+  Linkedin: https://br.linkedin.com/in/eric-douglas-81381282/en
 
 
 # Social Links Icons
@@ -135,13 +137,13 @@ social_icons:
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
+  Linkedin: linkedin
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: https://avatars3.githubusercontent.com/u/4119931?v=3&s=460
 
 
 # Table Of Contents in the Sidebar
@@ -193,8 +195,8 @@ sidebar:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
-  image:
+  enabled: true
+  image: http://i.imgur.com/Asm7CJI.png
 
 
 # Code Highlight theme
@@ -211,8 +213,8 @@ scroll_to_more: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 350
 
 
 # Wechat Subscriber
@@ -244,7 +246,7 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: ericdouglas
 
 # Baidu Share
 # Available value:
@@ -265,7 +267,7 @@ mathjax:
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-48165601-1
 
 # CNZZ count
 #cnzz_siteid:
